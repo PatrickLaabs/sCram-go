@@ -10,7 +10,7 @@ func Command() (err error) {
 	arg := os.Args
 
 	if len(arg) < 2 {
-		fmt.Printf("Missing password to hash.\nUsage: scram-go <password>\n")
+		fmt.Printf("Missing password to hash.\nUsage: sCram-go <password>\n")
 		os.Exit(1)
 	}
 
